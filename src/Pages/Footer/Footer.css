@@ -1,0 +1,33 @@
+.footer {
+    height: 5vh;
+    width: 100vw;
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    background: #29455081;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.568);
+    border: 1.8px solid #2945504b;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#links{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#links a{
+    text-decoration: none;
+}
+.go{
+    font-size: 30px;
+    color: black;
+}
