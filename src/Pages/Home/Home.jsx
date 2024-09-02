@@ -4,6 +4,12 @@ import "./Home.css";
 import Typewriter from "react-typewriter-effect";
 
 function Home() {
+
+  function openResume(){
+    window.open('/FrontendResume.pdf', '_blank')
+  }
+
+
   return (
     <section id="home">
       <div className="main">
@@ -68,7 +74,7 @@ function Home() {
               </p>
             </div>
             <div className="btn">
-              <button>Resume</button>
+              <button onClick={()=> openResume()}>Resume</button>
             </div>
           </div>
         </div>

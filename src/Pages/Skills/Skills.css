@@ -59,14 +59,14 @@
 }
 
 .icons {
-    font-size: 3.5vw;
+    font-size: 5vw;
     animation: scaleAndGray 1s ease-in-out forwards;
 }
 
 
 @media (max-width: 768px) {
     .icons{
-        font-size: 4vw;
+        font-size: 5vw;
     }
     .skillswrapper h1{
         font-size: 2vw;
@@ -75,7 +75,7 @@
 }
 @media (max-width: 600px) {
     .icons{
-        font-size: 5vw;
+        font-size: 6vw;
     }
     .skillswrapper h1{
         font-size: 2.5vw;
@@ -84,7 +84,7 @@
 }
 @media (max-width: 425px) {
     .icons{
-        font-size: 6vw;
+        font-size: 7vw;
     }
     .skillswrapper h1{
         font-size: 3vw;
@@ -93,7 +93,7 @@
 }
 @media (max-width: 375px) {
     .icons{
-        font-size: 6.5vw;
+        font-size: 8vw;
     }
     .skillswrapper h1{
         font-size: 3.5vw;

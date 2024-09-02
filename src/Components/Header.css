@@ -18,6 +18,9 @@ header h1{
     cursor: pointer;
     /* position: fixed; */
     z-index: 1;
+    background: linear-gradient(to right, #294550, whitesmoke );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 nav{
@@ -66,7 +69,7 @@ nav a{
         font-size: 4vw;
     }
     nav h3{
-        font-size: 2.3vw;
+        font-size: 2.5vw;
     }
     nav{
         height: 6vh;
