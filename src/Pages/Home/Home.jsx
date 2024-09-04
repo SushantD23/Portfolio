@@ -6,7 +6,7 @@ import Typewriter from "react-typewriter-effect";
 function Home() {
 
   function openResume(){
-    window.open('/FrontendResume.pdf', '_blank')
+    window.open('./Resume.pdf', '_blank')
   }
 
 
