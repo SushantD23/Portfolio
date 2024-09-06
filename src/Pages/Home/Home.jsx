@@ -6,9 +6,8 @@ import Typewriter from "react-typewriter-effect";
 function Home() {
 
   function openResume(){
-    window.open('./Resume.pdf', '_blank')
+    window.open('C:\Users\Sushant\OneDrive\Desktop\Portfolio\Resume.pdf', '_blank')
   }
-
 
   return (
     <section id="home">
