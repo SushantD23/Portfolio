@@ -47,7 +47,7 @@ function Header() {
             <h3>Projects</h3>
           </a>
         </div>
-        <div className="contact">
+        {/* <div className="contact">
           <a
             href="#contact"
             onClick={(e) => {
@@ -57,7 +57,7 @@ function Header() {
           >
             <h3>Contact</h3>
           </a>
-        </div>
+        </div> */}
       </nav>
       {/* <div className="icon">
         <h1><i class="ri-sun-fill"></i></h1>
